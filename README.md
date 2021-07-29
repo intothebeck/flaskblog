@@ -1,0 +1,2 @@
+# flaskblog
+blog for practies 
