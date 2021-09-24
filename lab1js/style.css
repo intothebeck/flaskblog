@@ -1,0 +1,140 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #dacebf;
+	padding: 20px 100px 30px 110px;
+	/* border: 8px double #110eaf;
+    border-top: 10px double #ffffff;
+	border-bottom: 10px double #a50000; */
+
+  }
+
+div {
+   	padding: 30px 200px;
+  	border-bottom: 2px solid rgba(0,0,0,.05); 
+  	text-align: center;
+}
+h1 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;  
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+input[type="number"] {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  
+}
+
+label {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+}
+
+label:active{
+    font-weight: bold;
+    color:rgb(5, 131, 43);
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #4CAF50;
+	padding: 4px 16px;
+	border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.c-button {
+	min-width: 100px;
+	font-family: inherit;
+	appearance: none;
+	border: 3px solid #b80909;
+	border-radius: 10px;
+	background: #1f5fdf;
+	color: rgb(235, 229, 229);
+	padding: 8px 16px;
+	font-size: 1.3rem;
+	cursor: pointer;
+	/* position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+  }
+  
+  .c-button:hover {
+	background: #1d49aa;
+  }
+  
+  .c-button:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+  }
+  html {
+	height:100%;
+  }
+  
+  body {
+	margin:0;
+  }
+  
+  .bg {
+	animation:slide 3s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+	bottom:0;
+	left:-50%;
+	opacity:.5;
+	position:fixed;
+	right:-50%;
+	top:0;
+	z-index:-1;
+  }
+  
+  .bg2 {
+	animation-direction:alternate-reverse;
+	animation-duration:4s;
+  }
+  
+  .bg3 {
+	animation-duration:5s;
+  }
+  
+  .content {
+	background-color:rgba(255,255,255,.8);
+	border-radius:.25em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:10vmin;
+	position:fixed;
+	text-align:center;
+	top:50%;
+	transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+	font-family:monospace;
+  }
+  
+  @keyframes slide {
+	0% {
+	  transform:translateX(-25%);
+	}
+	100% {
+	  transform:translateX(25%);
+	}
+  }
